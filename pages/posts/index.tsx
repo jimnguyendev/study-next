@@ -16,7 +16,8 @@ export default function PostList({ posts }: PostListProps) {
 			<div>Post list page</div>
 			<ul>
 				{posts.map((post) => (
-					<li key={post.id}>{post.title}</li>
+					<li key={post.id}>{post.title}
+					</li>
 				))}
 			</ul>
 		</>
